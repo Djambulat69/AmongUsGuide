@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/crewmate_dest">
+
+    <fragment
+        android:id="@+id/crewmate_dest"
+        android:name="com.djambulat69.amongusguide.CrewmateFragment"
+        tools:layout="@layout/fragment_crewmate" >
+        <action
+            android:id="@+id/action_crewmate_dest_to_crewmate_tip_dest"
+            app:destination="@id/crewmate_tip_dest" />
+    </fragment>
+    <fragment
+        android:id="@+id/impostor_dest"
+        android:name="com.djambulat69.amongusguide.ImpostorFragment"
+        tools:layout="@layout/fragment_impostor" >
+        <action
+            android:id="@+id/action_impostor_dest_to_crewmate_tip_dest"
+            app:destination="@id/crewmate_tip_dest" />
+    </fragment>
+    <fragment
+        android:id="@+id/crewmate_tip_dest"
+        android:name="com.djambulat69.amongusguide.AmongUsTipFragment"
+        tools:layout="@layout/fragment_amongus_tip">
+        <argument
+            android:name="tip_number"
+            app:argType="integer" />
+        <argument
+            android:name="is_crewmate"
+            app:argType="boolean" />
+    </fragment>
+
+</navigation>

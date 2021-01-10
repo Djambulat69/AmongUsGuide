@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Among Us Guide</string>
+    <string name="crewmate_role">Crewmate</string>
+    <string name="impostor_role">Impostor</string>
+    <string name="the_skeld_map_title">The Skeld</string>
+    <string name="mira_hq_map_title">MIRA HQ</string>
+    <string name="polus_map_title">Polus</string>
+    <string name="topic_string">Topic: %s</string>
+    <string name="map_string">Map: %s</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

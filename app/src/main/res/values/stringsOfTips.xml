@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="how_to_play_title">How to play</string>
+
+    <string name="tips_and_tricks_title">Tips and Tricks</string>
+
+    <string name="settings_tutorial_title">Settings tutorial</string>
+    <string name="settings_tutorial_text">
+        Each map comes with recommended settings, but these can be tweaked by the host. Here, we
+        describe what each setting affects, so you know exactly what you\’re changing.\n\n
+        Here\'s a quick rundown of the settings yo might want to change game to game:\n\n
+        - Impostors: This refers to the amount of Impostors in play. The limit refers to the lowest
+        number of Impostors allowed (if your lobby isn\’t full, the game can decide to have less
+        Impostors).\n
+        - Confirm Ejects: With this on, it will tell you if the person you just ejected was an
+        Impostor or not. With it off, it won\'t.\n
+        - Emergency Meetings: This is the amount of emergency meetings a player can call from the
+        center of the map.\n
+        - Emergency Cooldown: This is the amount of time you need to wait in between emergency
+        meetings. When playing online, having a long cool down stops it being abused.\n
+        - Discussion Time: How long in seconds you can discuss Impostors in meetings before you
+        vote.\n- Voting Time: How long in seconds you have to vote. Discussions can continue
+        during this time. Shorter time limits make the game more intense, longer limits make them
+        more methodical.\n- Player Speed: How fast the players move around the ship.\n- Crewmate
+        Vision: How far the crewmates can see around the ship.\n- Impostor Vision: How far the
+        Impostor can see around the ship. Impostors typically get better vision to make their job
+        easier.\n- Kill Cooldown: How long the Impostor must wait in between kills. The more
+        Impostors, the longer it should be.\n- Kill Distance: How close (short, normal, or long)
+        the Impostor must be to kill someone.\n- Visual Tasks: A few tasks, such as scanning in
+        the MedBay, are visual, as in other players can see you. If you are seen doing a visual
+        task, that’s proof that you\’re not the Impostor.\n- Common Tasks: These are the most basic
+        tasks in the game, and take an average time to complete.\n- Long Tasks: These tasks take
+        the longest as the name implies and involve visiting multiple rooms to complete them.\n-
+        Short Tasks: These tasks are very short and can be completed quickly, in a single location.
+        \n\nTip: Long tasks are better for the Impostor, as it takes longer to win and crewmates
+        must travel to different locations, making grouping up more difficult. Shorter tasks are
+        better for the crew, as players can be more direct and can finish the list much quicker.
+    </string>
+
+    <string name="best_settings_title">Best setting for server</string>
+    <string name="best_settings_text">
+        Set Up Advice\n\n
+        There are various ways you can tweak Among Us depending on what type of game you\'re
+        looking for, so we\'ve suggested some game builds below.\n\n
+        Frantic games: If you want to play a fast and frenetic game, you should have a quick kill
+        cooldown, lots of short tasks, short discussion time and short voting time, plus confirm
+        ejects off. This build means the game moves very quickly, with less time for debate and
+        long discussions. It also means you\'ll never be fully aware if you ejected an Impostor or
+        not until the end of the game. It favors Impostors, though the high amount of short tasks
+        do mean the crew doesn\'t have to work as hard to win.\n\n
+        Methodical games: This style of game is largely the opposite, and if the fun of Among Us
+        comes from the deduction, you\'ll favor this. It features either a long kill cooldown or 2
+        emergency meetings (both together is quite unfair on the Impostors), as well as long
+        discussion time and long voting time. Together, these two categories can clear 2 and half
+        minutes if you really want to get into it, though many players find anything over 90
+        seconds to be too long. Confirm ejects are a must for these games, as it lets players
+        know if their suspicions were correct. This build favors crewmates, so having more long
+        tasks can address the balance, while including visual tasks goes well with the spirit of
+        deduction.\n\n
+        Player speed offers no real advantage either way, but most players seem to favor something
+        between x1 and x1.75, so it\'s best to stick with that when starting out.\n\n
+        How many Impostors should I have?\n\n
+        It depends on whether you want to lean into the mystery aspect of the game (in which case,
+        just have one Impostor), or want to a more pressured playthrough (in which case, have more
+        Impostors).\nAs for group sizes, it\'s best to stick to just one Impostor if you have five
+        players or less, and to avoid having three Impostors until you have eight or more players.
+        Of course, a lot of players stick with a solo Impostor even in a ten player game, but you
+        should probably include some of the Lone Impostor settings to keep the balance right.\n\n
+        Lone Impostor: With just one Impostor, the crew has a significant advantage. The best way
+        to balance this is to have quick kill cooldowns of 15 seconds or less, long kill distance,
+        only 1 emergency meeting, and Impostor vision should be at least 0.5 higher than crewmate
+        vision, arguably even more.\n\n
+        Three Impostors: Here, the Impostors have the advantage. For that reason, you want long
+        kill cooldowns, probably of over 40 seconds, and only a short kill distance. It might be
+        best to stick with just the 1 emergency meeting, as frequent meetings being called can
+        abuse the long kill cooldown and make it too difficult for the Impostors to work. Impostor
+        vision can still be higher, though only by around 0.2. When playing with two Impostors, a
+        balance between these two approaches is advisable.\n\n
+        General Advice\n\n
+        You want to try and keep a balance between whether your game favors the Impostors or the
+        crewmates. Long meeting cooldowns, short kill cooldowns, no visual tasks, don\'t confirm
+        ejects, long kill distance, and lots of long tasks will favor the Impostor.\n
+        The opposite of each of those settings favors the crewmates. If you\'re playing a few games
+        together, tweak the settings each time to figure out what balance works for you.
+    </string>
+    <!-- CREWMATE TIPS -->
+    <string name="crewmate_how_to_play_text">
+        To join a game, select either online or local. From here, you can choose whether to create
+        or join a game, and whether you’re searching for a game with 1, 2, or 3 Impostors.\n\n 1.
+        You will not know if you are a crewmate or Impostor until the game starts.\n2. To control
+        your character, it’s either keyboard and mouse or just mouse, while everyone’s speed can
+        be.\n3. On phones, there is an analogue stick touch pad for moving.\n4. To do tasks, you
+        need to walk to the correct room and either click the object directly or click the ‘Use’
+        button in the bottom right corner. From there, each task is fairly self explanatory.\n5.
+        If you find a dead body, you can click ‘Report’ in the bottom right corner. This will call
+        a team meeting, where you can discuss where you found the body, discover if anyone else was
+        killed, and share your suspicions. You do not have to report a body if you see one, though.
+        \n6. You can also call an emergency meeting from a button in the middle of the map.\n7.
+        After the discussions, you vote. You can elect to skip a vote. If skipping has the most
+        votes or there is a tie, nobody will be ejected.\n8. To win the game, you must complete all
+        tasks before the Impostor kills the crew.\n9. Once you are killed, you can continue to
+        complete tasks as a ghost to help your team, but you cannot communicate.
+    </string>
+
+    <string name="crewmate_tips_and_tricks_text">
+        1. Complete Tasks\nSounds basic, but this is how you win. Try completing a group of tasks in
+        one area at a time. Not only will this allow you to monitor an area better, but also get a
+        lot done efficiently.\n\nTasks are crucial to victory as a crewmate. The whole crew needs
+        to either complete all of the tasks before the Impostor kills everyone off, or to vote
+        all of the Impostors out.\n\n
+        2. Take Breaks Between Tasks\nYeah, this contradicts the tip above, but make sure you don\’t
+        have a laser focus on the tasks, otherwise you\’ll never figure out the Impostor.\n\n
+        3. Be Aware of Your Sight Lines\nMost tasks take up the whole screen, leaving you blind,
+        and some take a long time to complete. Be aware not to do these if someone suspicious is
+        around.\n\nConsider doing the tasks you know will take more time first when you\'ve got the
+        best chance to be around a lot of people.\n\n
+        4. Safety in Numbers\nTraveling with a person you trust means its much harder for an
+        Impostor to kill you, but you may well be pairing up with an Impostor yourself. Tread
+        carefully. If you can be with more than one other person you\'ll probably be better off.\n\n
+        5. Let Someone See You do a Visual Task\nMost tasks aren\’t visual - as in others can\’t tell
+        if you\’re doing them - but a few are. Scanning in the MedBay, for example. If someone sees
+        you, they know for sure you\’re not an Impostor.\n\nKeep an eye on people who complete
+        critical tasks too. For instance, if you\'re on your way to fix the lights or power,
+        remember who was there before you and take note of whether or not they completed the task
+        before you had a chance to. Did anyone show up after you had completed the task? Almost
+        more important, who didn\'t show up?\n\n
+        6. Ask Questions\nLots of accusations fly in the chat, but watch out that Impostors will
+        often accuse someone innocent. Don\’t just follow the first accusation, it could be
+        Impostors trying to thin the herd.\n\n
+        7. Keep a lookout\nStrange behavior doesn\’t necessarily an Impostor, but it is definitely
+        worth making a mental note of.\n\nOdd behavior:\n\n- Standing near vents for no reason
+        \n- Standing in corners of a room away from tasks\n- Not being able to clearly articulate
+        what tasks they were working on during a round\n- Making excuses for not finishing things
+        because of reasons outside the game\n- Staying in only one or two rooms where there aren\'t
+        many tasks\n- Standing near doors but not entering rooms frequently\n\nSome of these actions
+        could be done just because a player is inexperienced. Still, be cautious!\n\n
+        8. Skip\nDon\’t be afraid to skip a vote if no one has convinced you, the road to winning
+        comes through completing tasks.\n\n
+        9. Know the map\nThis is needed to get the fastest route to complete tasks and also to react
+        to sabotage.
+    </string>
+
+    <string name="the_skeld_tasks_guide_title">The Skeld tasks guide</string>
+    <string name="the_skeld_tasks_guide_text">
+        The Skeld is one of three maps in Among Us, but as the default map is probably the best
+        known. Here, we\’ll explore every room on the ship, detailing the tasks in each room,
+        methods of sabotage, and any tips each room can offer. We\’ll list them alphabetically
+        here, and for tasks which happen in multiple rooms, they\’re listed in the room they start
+        in. Once you do one half of a multi room task, you\’ll get a yellow arrow on screen leading
+        you to the other one.\n\nAdmin\n\nSwipe Card - This occurs on the right hand side of the
+        table in the admin room, and is relatively simple. It won\’t count if you go too fast or
+        too slow, but other than that, it\’s a straightforward swipe.\nFix Wires - There are three
+        different wires tasks which involve matching up colored wires. One of them is in the
+        corridor into the Admin room.\nUpload Data From - There are several Upload Data tasks,
+        which each start in different rooms. However, they all finish at the WiFi symbol in the
+        corridor of the Admin room, right next to the wire box.\nAdmin Room Tip: In the admin room
+        you can also keep track of who\’s in what room with the device on the left hand side of the
+        table, which is very useful for checking who might be lying during Impostor discussions.\n\n
+        Cafeteria\n\nUpload Data From The Cafeteria - One of those data tasks that finishes in the
+        Admin room begins in the Cafeteria. Select the WiFi board in the top right corner, click
+        upload, and wait a few seconds for the transfer. Afterwards, head to the Admin room to
+        upload it.\nFix Wires - Another wire task is on the left hand wall of the cafeteria.\n
+        Empty Garbage - This is a two part task, with the first switch right next to the Upload
+        Data task. Click the switch, then hold down the lever to empty the chute. After this, head
+        down to the Storage room to repeat the task.\n\nCommunications\n\nUpload Data From
+        Communications - Just like the Cafeteria one, you have to take it to the Admin room
+        afterwards. Let\’s not get ahead of ourselves though, first you have to grab the data from
+        the left wall as soon as you enter the room.\n\nElectrical\n\nUpload Data From Electrical
+        - Same as the other data tasks, you need to grab data from the WiFi panel then head back
+        to admin\nCalibrate Distributor - Select the box with the high voltage sign on the right
+        hand side of the room and line up the three rectangles spinning around the circle. They
+        all have to stop on the right, connected to the distributor plugs.\nDivert Power To -
+        There are several Divert Power To.. tasks, and they all start on the back wall of
+        Electrical. Select the control panel, and then flip the switch to divert power to
+        whichever room you need. From there, you just need to find the panel (the yellow arrow
+        will guide you) and flip the connector in the center.\nUpper Engine - In the middle of the
+        back wall\nLower Engine - On the left as soon as you enter\nWeapons - At the near side of
+        the right wall\nShields - On the right as soon as you enter\nNavigation - In the left
+        corner\nCommunication - On the right as soon as you enter\nO2 - On the left as soon as
+        you enter\nSecurity - On the angled right wall.\nElectrical Tip: This is a small room
+        with potentially a lot of tasks, which makes it prime Impostor real estate. Get out as
+        fast as you can as a crewmate, or use this as a hunting spot as an Impostor.\n\nEngines\n\n
+        Align Engine Output - This involves hitting both Upper and Lower Engines and selecting the
+        box on the nearside of the engines, and lining up the computer mouse shaped object so it
+        fits between the parallel lines.\n\nMedbay\n\nSubmit Scan - This involves standing on the
+        circular podium and is one of the game\’s most straightforward tasks. It also doesn\’t block
+        your vision like some others, so means there’s less chance of an Impostor getting the drop
+        on you.\nInspect Sample - Select the device on the back wall then follow the button
+        prompts. There is a real-world 60 second wait here while the machine processes the sample,
+        so you can use this time to be on the look out for any suspicious behavior. Just make sure
+        to head back and select the odd sample out.\n\nNavigation\n\nFix Wires - The third wires
+        box is on the left as soon as you enter.\nUpload Data From Navigation - The data point is
+        just to the right of the wires box, and again needs to be taken to Admin.\nChart Course -
+        There are two control panels at the back of Navigation. The left hand one lets you chart a
+        course, and you need to zig zag the ship along the lines provided.\nStabilize Steering -
+        This is the second - and larger - of the two control panels in Navigation, and involves
+        you selecting the crosshair target in the middle of the screen.\n\nO2\n\nEmpty Chute -
+        Pull the lever on the back wall to empty the chute. The second part of the task takes
+        place in Storage.\nClean O2 Filter - This is the vent like object near the back of the
+        room. Click it and drag the leaves out of the grate.\n\nReactor\n\nUnlock Manifolds - This
+        task is the little bar at the back of the room. Select it and then click the numbers 1-10
+        in order.\nStart Reactor - This is the control panel next to the glowing tubes (ie the
+        reactor). There is a sequence, first with one flashing light adding one each time until
+        five flashing lights, that needs to be repeated in order to complete the task.\n\nSecurity\n
+        \nNo tasks besides the diverting power task which begins in Electrical.\nSecurity Tip:
+        There are cameras in this room; use them to try and spot an Imposter behaving strangely.\n\n
+        Shields\n\nPrime Shields - This is the little speaker box in the bottom corner of the
+        room. Select it and click each of the red hexagons.\n\nStorage\n\nFuel Engines - This is
+        a bit of a long task, but the upside is you get to see a bit more of the ship and might
+        spot the Impostor… or you could be killed. Anyway. Grab the gas can from Storage and use
+        the button in the bottom right to fill it up. Head to either Upper or Lower Engines to
+        fill the engines up with the nozzle on the nearside, then head back to Storage to repeat
+        the process, this time heading to the other engine.\n\nWeapons\n\nClear Asteroids -
+        Another task which can take a bit longer, this one is at least more fun. Several asteroids
+        will come flying past the screen once you click the seat and joy sticks in the middle;
+        hit 20 of them to complete this task.
+    </string>
+
+    <string name="mirahq_tasks_guide_title">Mira HQ tasks guide</string>
+    <string name="mirahq_tasks_guide_text">
+        Mira HQ is one of three maps in Among Us, and is probably the second most popular after
+        The Skeld, though it has more unique areas to it. Here, we\’ll explore every room on the
+        ship, detailing the tasks in each room, methods of sabotage, and any tips each room can
+        offer. We\’ll list them alphabetically here, and for tasks which happen in multiple rooms,
+        they\’re listed in the room they start in. Once you do one half of a multi room task,
+        you\’ll get a yellow arrow on screen leading you to the other one.\n\nAdmin\n\n
+        The Admin room in Mira HQ has three tasks:\nPrime Shields - From the console at the bottom
+        of the room, click and choose all of the red shapes.\nChart Course - Go to the controls
+        at the right corner of the room, and drag the ship along the dotted course.\n
+        ID Code - Select the table as soon as you enter to bring up the code entry. Select the
+        card from your wallet and enter the code printed on it into the key pad.\n
+        Admin room tip: You can use the central table here to view how many people are in each
+        room, which can help in Impostor discussions, or in finding folks to hunt if you are
+        the Impostor.\n\nBalcony\n\nClear Asteroids - At the console to the left of the balcony,
+        click to activate the asteroids then keep shooting until you\’ve cleared 20\n
+        Measure Weather - This time, go the right of the balcony. Click the switch, then
+        activate the terminal and wait for it to finish measuring.\n\nCafeteria\n\nEmpty Garbage -
+        Head to the lever on the wall and hold it down until the screen is empty.\nBuy Beverage -
+        Click the vending machine at the back of the room. There will be a scribbled drawing of
+        the beverage to buy; find it and input the right code.\n\nCommunications\n\n
+        There are no tasks here aside from Divert Power, which begins in the Reactor\n
+        Communications Tip: Use the door log to track crew movements around the ship.\n\n
+        Greenhouse\n\nClean O2 Filter - Click the glass chamber at the back of the room and
+        drag all of the leaves out of the vent.\n\nLocker Room\n\nFix Wiring - This is a three
+        part task which starts outside the Locker Room. Click the panel then line up the wires
+        across either side by matching the colors. After this, you\’ll need to head to the
+        Greenhouse and to the Reactor to finish the task.\nLocker Room Tip: This room contains
+        the entrance to the airlock.\n\nLaboratory\n\nAssemble Artefact - This happens on the
+        table at the top of the room. You\’ll need to arrange the pieces of crystal into a jigsaw
+        to finish the tasks.\nSort Samples - At the bottom table, there are three boxes. You\’ll
+        need to put shiny geodes in the gem box, animal fossils in the paw print box, and plant
+        fossils in the leaf box. There\’s usually two of each.\n\nLaunch Pad\n\n
+        Fuel Engines - Click the terminal on the left until the gas canister comes up.
+        Hold down the bottom button until the engine is full.\nRun Diagnostics - Use the console
+        on the left and begin the task. It will take a long time, almost a minute, for this to go
+        through. You can leave the terminal and come back, but the task will not register as
+        complete until you select it one final time to choose the anomaly.\n\nMedBay\n\n
+        Submit Scan - Stand on the central platform and begin the task. You must remain still
+        during the scan for it to work.\n\nOffice\n\nProcess Data - Select the computer at the
+        back of the room, then wait while the data uploads itself.\n\nReactor\n\n
+        Start Reactor - Go up to the actual reactor in the middle of the room. Once clicked, it\’s
+        a simple case of following the sequence of flashes until you\’ve done this five times.\n
+        Unlock Manifold - Click the keypad on the left of the room, then tap the numbers 1-10
+        in sequence.\nDivert Power To - There are a lot of tasks like this which begin in the
+        Reactor. You\’ll need to click the control panel at the bottom of the room, then choose
+        which room to divert the power to. Afterwards, head to that room to finish the task.\n
+        1.Admin - On the back wall\n2.Cafeteria - In the top left corner\n3.Communications -
+        On the wall as you enter\n4.Greenhouse - At the mini console to the far left of the room\n
+        5.Laboratory - On the left as soon as you enter\n6.Launch Pad - The mini console on the
+        left of the doorway\n7.MedBay - In the middle of the back wall\n8.Office - At the mini
+        console in front of the computer\n\nStorage\n\nWater Plants - First, you need to select
+        the watering can at the back of the room. This will bring up a new screen, where you\’ll
+        need to, um, click the watering can again. After this, head to the Greenhouse and click
+        the plants on the right to finish the task.
+    </string>
+
+    <!-- IMPOSTOR TIPS -->
+    <string name="impostor_how_to_play_text">
+        To join a game, select either online or local. From here, you can choose whether to create
+        or join a game, and whether you’re searching for a game with 1, 2, or 3 Impostors.\n\n
+        Select which of the three maps you want to play on.\n1. You will not know if you are a
+        crewmate or Impostor until the game starts.\n 2. To control your character, it’s either
+        keyboard and mouse or just mouse, while everyone’s speed can be adjusted by the host.
+        What you choose is just personal preference.\n3. On phones, there is a analogue stick touch
+        pad for moving.\n 4. You will be given fake tasks by the game; pretend to do them to blend
+        in.\n 5. To kill someone, get close enough to them for the ‘Kill’ button in the bottom right
+        hand corner to light up.\n 6. There is a cooldown timer between kills, which can be
+        customized by the host.\n 7. You can either report the body yourself, or run away to take
+        the suspicion off you.\n 8. You can still participate in discussions and should try to throw
+        suspicion off you.\n9. You can sabotage the ship, either by locking down certain rooms or by
+        setting off faults.\n10. Some faults - such as turning off the lights - make it harder for
+        crewmates to complete tasks, while others - such as turning off the oxygen - will kill them
+        if they do not fix it in time.\n 11. You can use the vents to get around the ship faster,
+        but if anyone spots you, they will know you are an Impostor.\n 12. To win the game, you need
+        to kill off the crew.
+    </string>
+
+    <string name="impostor_tips_and_tricks_text">
+        1. Try to Blend In\nKnow where tasks take place. This is the most important part of being a
+        believable "crewmate" as the Imposter! Pretend to do tasks (and let people see you) by
+        standing by and waiting. The game even gives you fake ones, so you don\’t duplicate anyone
+        else\’s tasks.\n\nWhen you give your alibi, be sure to mention the \"tasks\" you completed
+        and where. Just giving the locations you were at during the round isn\'t convincing. If you
+        can back them up with specific tasks you\'ll be far more convincing.\n\nYou can learn tasks
+        for each map by playing in the practice mode. Definitely take the time to do this if you\'re
+        trying to best experienced friends.\n\n
+        2. J\’accuse!\nThere is often limited time to discuss the Impostor after a body is discovered
+        , so try and throw the suspicion elsewhere. Don\’t be too obvious (like don\’t say you saw
+        them kill when they obviously didn\’t), but do try and upset the balance.\n\n
+        3. Follow An Accusation\nOccasionally, a crewmate will accuse the wrong person. When this
+        happens, you want to double down on this and get them out. With multi Impostors, you can
+        even team up and accuse.\n\n
+        4. Watch the Kill Counter\nYou can\’t just kill whenever you want, as there\’s a kill cooldown
+        timer. Don\’t go in for the kill if it means trailing someone for 15 seconds.\n\nBe strategic
+        about who you kill too. If someone was accusing you of being an Imposter, it could be more
+        fishy if they suddenly turn up dead the next round.\n\n
+        5. Sabotage\nLock players in, set off faults… anything to delay them completing their tasks.
+        Locking players in together can cause suspicion too. Do this strategically. Maybe even
+        lock yourself in with someone you don\'t plan to kill so that you\'re safe.\n\n
+        6. Set Traps\nIf you sabotage the O2 in The Skeld, for example, you know crewmates are going
+        to rush there. But some will ignore the alarm and work on their tasks on the other side,
+        aware that other crew mates will handle it. You can linger away from the sabotage in the
+        hopes that someone unguarded will walk by.\n\n
+        7. Vent with Caution\nVents are a great way to get around, especially if you\’ve trapped
+        someone in a room, but if anyone sees you, they know you\’re the Impostor. The animation for
+        an Imposter popping out of a vent is very obvious if someone sees it.\n\n
+        8. Don\’t be afraid to act odd\nEveryone is trying to figure the Impostor out, so everyone is
+        going to wander around a little bit. Don\’t be afraid to be a little odd, especially if
+        you\’re playing with IRL friends and are having a few games.
+    </string>
+
+    <string name="the_skeld_sabotages_vents_title">The Skeld - Sabotages/Vents</string>
+    <string name="the_skeld_sabotages_vents_text">
+        Vents\n\nOnly the impostor has access to the vents, so be careful not to be spotted going
+        into them. They do help you get around quicker though, and escape any areas you might
+        have locked down. The various tunnel links can be found below.\n- Admin-Cafeteria-Corridor
+        (between Weapons and Shields)\n- Weapons-Navigation\n- Shields-Navigation\n- Electrical-
+        Security-MedBay\n- Lower Engine-Reactor\n- Upper Engine-Reactor\n\nSabotages\n\n
+        The most common way to sabotage is to lockdown a room, but that is an inconvenience more
+        than anything else, and will only delay the crew’s progress. Upper Engine, Lower Engine,
+        Security, MedBay, Electrical, Cafeteria, and Storage can all be locked down.\n\n
+        You can also set off the Reactor, which will kill the crew if not disabled in time, turn
+        off the O2 which will suffocate them if not fixed, turn off the lights to impair vision,
+        or take out the communications to disable the security cameras.
+    </string>
+
+    <string name="mirahq_sabotages_vents_title">Mira HQ Sabotages/Vents</string>
+    <string name="mirahq_sabotages_vents_text">
+        Vents\n\nThe vents are especially interesting in Mira HQ, as they all link together as
+        one labyrinth. Below is a list of all the rooms with vents in them.\n
+        - Balcony\n- MedBay\n- Reactor\n- Launch Pad\n- Locker Room\n- Decontamination Corridor\n
+        - Cafeteria\n- Admin\n- Greenhouse\n- Office\n- Laboratory\n\nSabotage\n\n
+        When playing as the Impostor, you have more tools at your disposal than just killing your
+        foes or using vents. You can also sabotage various rooms to help earn yourself that victory.
+        You can\’t seal doors, but you can turn off the O2 or sabotage the Reactor, both of which
+        will kill the crew if they\’re not fixed in time. You can also use the Office to turn off
+        the lights, decreasing visibility, and sabotage Communications to scramble to Admin room
+        locator and the door log.
+    </string>
+</resources>
